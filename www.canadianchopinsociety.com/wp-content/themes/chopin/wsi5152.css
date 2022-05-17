@@ -1,0 +1,52 @@
+.entry-content td, th {
+font-weight: normal;
+text-align: left;
+vertical-align: top;
+font-size:14px;
+}
+
+.cn-page .entry-content h1 {
+font-family: 'CuprumFFURegular',Georgia, Times, "Times New Roman", serif;
+font-size: 30px;
+color: black;
+line-height: 30px;
+margin-bottom: 20px;
+font-weight: normal;
+}
+
+#ss_posts, #ss_pages {
+	float:left;
+	display:block;
+	width:320px;
+}
+
+#ss_posts {
+	clear:right;
+}
+
+.signup p {
+font-size: 24px;
+}
+
+.signup p {
+    padding: 15px 0 0 15px!important;
+}
+
+.heading-padd{
+	margin-top:13px;
+}
+
+.page-id-2161 .entry-content h2.heading-padd{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.page-id-2161 .entry-content h3.heading-padd{
+	margin-bottom: 19px;
+}
+.page-id-2161 span.wpcf7-list-item{
+	margin-left: 0;
+}
+
+.wpcf7 .label {
+    width: 145px!important;
+}

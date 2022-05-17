@@ -1,0 +1,271 @@
+body.page {
+	background: url(../images/background.gif) top repeat-x #f8f8f8;
+}
+.inp-banner {
+	width: 100%;
+	height: 113px;
+	display: block;
+	background: url(../images/banner-inside.jpg) center no-repeat;
+}
+.inp-banner h1{
+	font-family: 'CuprumFFURegular',Georgia, Times, "Times New Roman", serif;
+	font-size: 34px;
+	font-weight: normal;
+	line-height: 113px;
+	margin-left: 25px;
+	color:white;
+}
+.site-content {
+	width: 100%;
+	display: block;
+}
+.sidebar {
+	float: left;
+	display: block;
+}
+.page-sd {
+	width: 210px;
+	padding-left: 25px;
+	margin-top: 32px; 
+}
+.cn-page {
+	float:left;
+	margin-top: 30px;
+	width: 685px;
+	border-left: 1px solid #c1c1c1;
+	padding-left: 20px;
+	margin-bottom:30px; 
+}
+.p-sd-nav li {
+	margin-bottom: 10px;
+}
+.p-sd-nav li a {
+	display: block;
+	height: 39px;
+	width: 192px;
+	overflow: hidden;
+	line-height: 39px;
+	font-family: 'CuprumFFURegular',Georgia, Times, "Times New Roman", serif;
+	font-size: 20px;
+	text-decoration: none;
+	color:white;
+	background: url(../images/button.png) top repeat-x;
+}
+.p-sd-nav li a img,.did-you-know .head img {
+	float: left;
+	margin-right: 10px;
+}
+.p-sd-nav li a:hover {
+	background: url(../images/button.png) bottom repeat-x;
+}
+.did-you-know {
+	width: 192px;
+	display: block;
+	margin-top: 20px;
+}
+.did-you-know .head {
+	line-height: 39px;
+	height: 39px;
+	display: block;
+	font-family: 'CuprumFFURegular',Georgia, Times, "Times New Roman", serif;
+	font-size: 20px;
+	color:white;
+	background: black;
+}
+.did-you-know .content {
+	width: 100%;
+	min-height: 200px;
+	display: block;
+	overflow: hidden;
+	background: #d1d1d1 url(../images/did_know_content_back.png) center no-repeat;
+    margin-bottom:30px;
+}
+.did-you-know .content p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 12px;
+	color:black;
+	line-height: 20px;
+	margin: 20px 12px 20px 18px;
+}
+/*.sidebar-nav {
+	display: block;
+	margin-bottom: 25px;
+}
+.sidebar-nav li {
+	border-bottom:1px solid #c1c1c1;
+	width: 182px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.sidebar-nav li a {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 16px;
+	text-decoration: none;
+	color:black;
+	padding-left:20px;
+	line-height: 16px;
+	display: block;
+	background: url(/core/images/inside-nav-li.png) left center no-repeat;
+}
+.sidebar-nav li a:hover {
+	color:#c80000;
+}*/
+.nav-menu {
+	display: block;
+	margin-bottom: 25px;
+}
+.nav-menu li {
+	border-bottom:1px solid #c1c1c1;
+	width: 182px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.nav-menu li.rmv-sep {
+	border-bottom: none;
+}
+.nav-menu li a {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 16px;
+	text-decoration: none;
+	color:black;
+	padding-left:20px;
+	line-height: 16px;
+	display: block;
+	background: url(../images/inside-nav-li.png) left center no-repeat;
+}
+.nav-menu li a:hover,.nav-menu li.current-menu-item a {
+	color:#c80000;
+}
+.nav-menu li .sub-menu {
+	margin-top:15px;
+	padding-left:20px;
+}
+.nav-menu li .sub-menu li {
+	border:0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style:disc;
+	list-style-position: inside;
+}
+.nav-menu li .sub-menu li a {
+	background: none;
+	font-size: 14px;
+	padding-left: 0;
+	color:black;
+	display:inline;
+}
+.nav-menu li .sub-menu li a:hover {
+	color:#c80000;
+}
+.breadcrumbs {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	border-bottom:1px solid #c1c1c1;
+}
+.breadcrumbs span.current,.breadcrumbs a:hover {
+	color:#b40000;
+}
+.breadcrumbs a {
+	text-decoration: none;
+	color:black;
+}
+.site-content article { 
+
+}
+.cn-page article {
+	margin-left: 10px;
+	min-height: 520px;
+}
+.entry-header h1, .entry-content h1, .entry-content h2 {
+	font-family: 'CuprumFFURegular',Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	color:black;
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.entry-content h2 {
+	font-size: 24px;
+	color:#b40000;
+	margin-bottom: 25px;
+	line-height: 24px;
+}
+.entry-content p img {
+	border:3px solid #b9b9b9;
+}
+.red-ul li {
+	list-style: none;
+	background: url(../images/bullet-red.png) left center no-repeat;
+	padding-left: 18px;
+}
+.ss_wrapper a {
+    color:black;
+    text-decoration:none;
+}
+.ss_wrapper a:hover {
+	color:#b40000;
+    text-decoration:underline;
+}
+.comments-area li {
+    list-style:none;
+}
+.cn-blog-single .comments-area li article {
+    padding-left:0;
+}
+div.wpcf7 {
+    width:600px;
+    margin:0 auto;
+}
+.wpcf7 .label {
+	float:left;
+	width: 140px;
+	display: block;
+	margin-bottom: 10px;
+    text-align:right;
+    padding-right:10px;
+}
+/*
+.wpcf7-list-item-label {
+    padding-left:5px;
+	color: #444444;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 1rem;
+    display: block;
+    float:left;
+    float:left;
+}
+.wpcf7 .checkbox input {
+	float: left;
+	margin: 0;
+    margin-top:6px;
+}
+*/
+.wpcf7 .input {
+	float: left;
+	display: 300px;
+	display: block;
+	margin-bottom: 10px;
+}
+.wpcf7 .dropdown {
+	width: 305px;
+	height: 22px;
+	line-height: 22px;
+}
+.wpcf7 .input .text {
+	width: 300px;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 0 0 6px;
+}
+.wpcf7 .input .textarea {
+	width: 441px;
+	height: 183px;
+	display: block;
+	padding: 6px 0 0 6px;
+}
